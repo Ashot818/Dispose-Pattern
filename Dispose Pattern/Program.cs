@@ -1,7 +1,6 @@
 ﻿namespace Dispose_Pattern
 {
-    namespace Dispose
-    {
+    
         class Product : IDisposable
         {
 
@@ -49,5 +48,5 @@
                 Console.WriteLine("Dispose");
             }
         }
-    }
+    
 }
